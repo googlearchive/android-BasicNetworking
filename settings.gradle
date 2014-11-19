@@ -1,4 +1,1 @@
-
-
-
-include 'BasicNetworkingSample'
+include 'Application'
