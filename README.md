@@ -1,11 +1,22 @@
 Android BasicNetworking Sample
 ===================================
 
-This sample demonstrates how to use the ConnectivityManager to determine if you have
+This sample demonstrates how to check network connectivity with Android APIs.
+
+Introduction
+------------
+
+It utilizes the [`ConnectivityManager`][1] to determine if you have
 a network connection, and if so, what type of connection it is.
 
-A "NetworkInfo" object is retrieved from the ConnectivityManager, which contains information
+A [`NetworkInfo`][2] object is retrieved from the ConnectivityManager, which contains information
 on the active connection, and then the connection type is printed to an on-screen console.
+
+Multiple types of connectivity can be displayed and could be used to take different measures
+in actual production code.
+
+[1]: https://developer.android.com/reference/android/net/ConnectivityManager.html
+[2]: https://developer.android.com/reference/android/net/NetworkInfo.html
 
 Pre-requisites
 --------------
@@ -13,6 +24,11 @@ Pre-requisites
 - Android SDK v21
 - Android Build Tools v21.1.1
 - Android Support Repository
+
+Screenshots
+-------------
+
+<img src="screenshots/start.png" height="400" alt="Screenshot"/> <img src="screenshots/tested.png" height="400" alt="Screenshot"/> 
 
 Getting Started
 ---------------

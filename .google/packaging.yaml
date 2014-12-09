@@ -9,4 +9,9 @@ categories:   [Connectivity]
 languages:    [Java]
 solutions:    [Mobile]
 github:       android-BasicNetworking
+level:        INTERMEDIATE
+icon:         screenshots/big_icon.png
+apiRefs:
+    - android:android.net.ConnectivityManager
+    - android:android.net.NetworkInfo
 license: apache2
